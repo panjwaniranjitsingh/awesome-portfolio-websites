@@ -24,7 +24,7 @@ const exp = [
     cardImage: "assets/images/experience-page/goldwood.jpeg",
     place: "Goldwood Ply Industry Pvt Ltd",
     time: "(2010 - 2020)",
-    desp:"<li>Worked on software implementation and maintenance.</li><li>Surpervised Operational Management.</li><li>Managed accounting and expenses.</li>",
+    desp:"<li>Worked on software implementation and maintenance.</li><li>Supervised Operational Management.</li><li>Managed accounting and expenses.</li>",
   },
 ];
 
