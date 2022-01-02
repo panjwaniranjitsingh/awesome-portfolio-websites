@@ -21,14 +21,14 @@ const projects = [
   },
   {
     title: "Master Quiz",
-    cardImage: "assets/images/project-page/master quiz.png",
+    cardImage: "assets/images/project-page/masterquiz.png",
     description: "A quiz game like Kaun Banega Crorepati",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
     Previewlink: "https://games.acidtriparts.com/games_webbuild/masterQuiz1/",
   },
   {
     title: "Sniper Shooter 3D",
-    cardImage: "assets/images/project-page/sniper shooter 3d title.png",
+    cardImage: "assets/images/project-page/snipershooter3dtitle.png",
     description: "First Person Shooter game with zombies",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
     Previewlink: "https://games.acidtriparts.com/games_webbuild/sniperShooter3d1/",
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "Snakes & Ladders",
-    cardImage: "assets/images/project-page/sankes n ladders.png",
+    cardImage: "assets/images/project-page/sankesnladders.png",
     description: "Typical cardboard game of snakes and ladders with bot",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
     Previewlink: "https://games.acidtriparts.com/games_webbuild/snakeAndLadder1/",
@@ -57,8 +57,9 @@ const projects = [
 const showCards = () => {
   let output = "";
   projects.forEach(
-    ({ title, cardImage, tags, Previewlink, Githublink }) => {
+    ({ title, cardImage, tags, Previewlink, description }) => {
       (output += `       
+        
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
             <div class="header">
@@ -66,11 +67,10 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="${Previewlink}">${title}</a></h1>
+                <h1 class="title"><a href="${Previewlink}">${title}<br><br>${description}</a></h1>
                 </div>
-            <ul class="menu-content"><br>
-                  <li><a href="${Previewlink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></a></li>
-        
+                <ul class="menu-content">
+                <a href="${Previewlink}"></a>
                 </ul>
               </div>
             </div>
