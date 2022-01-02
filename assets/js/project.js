@@ -7,7 +7,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Tic-Tac-Toe",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    cardImage: "assets/images/project-page/logo.png",
     description: "Classic Tic Tac Toe game with bot.",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
     Previewlink: "https://games.acidtriparts.com/games_webbuild/ticTacToe1/",
