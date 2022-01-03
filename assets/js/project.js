@@ -67,11 +67,8 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="${Previewlink}">${title}<br><br>${description}</a></h1>
+                <h1 class="title"><a href="${Previewlink}">${title}<br><[Play]<br>${description}</a></h1>
                 </div>
-                <ul class="menu-content">
-                <a href="${Previewlink}"></a>
-                </ul>
               </div>
             </div>
           </div>
