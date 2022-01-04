@@ -110,7 +110,7 @@ let footer = $(`
       <!--SVG code for quote-left icon-->
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1.5em" height="1.5em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path d="M7 21a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2L7 13a4 4 0 1 1 0 8zm10 0a4 4 0 0 1-4-4c0-1.473 1.333-6.14 4-14h2l-2 10a4 4 0 1 1 0 8z" fill="#fff" fill-rule="evenodd"/></svg>
       </div>
-      <p class="tag" >Try try till you cry,sorry till you succeed!</p>
+      <p class="tag" >Coder by heart,Game Developer by profession!</p>
     </div>
 
     
@@ -130,11 +130,11 @@ let footer = $(`
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
                   <form action="https://formcarry.com/s/eg8ydNZNUpq" method="POST" accept-charset="UTF-8" >
                   <input type="text" name="Name" placeholder="Your Name" required/>
                   <input type="email" name="Email" placeholder="Email Address"  required/>
                   <textarea name="Message" placeholder="Type your Message" required></textarea>
+                  <input type="hidden" name="_gotcha">
                   <input type="submit" value="Send" />
                 </form>
              </div>
@@ -146,7 +146,7 @@ let footer = $(`
     
 
     <div class="rounded-social-buttons tag">
-    <a class="social-button twitter" href="#" target="_blank">
+    <a class="social-button twitter" href="https://twitter.com/ranjitsinghp" target="_blank">
     <!-- SVG code for twitter icon -->
     <svg class="twitter-icon-footer" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" enable-background="new 0 0 500 500"
