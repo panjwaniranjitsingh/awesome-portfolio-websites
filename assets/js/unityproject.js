@@ -7,64 +7,53 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Tic-Tac-Toe",
-    cardImage: "assets/images/project-page/logo.png",
+    cardImage: "assets/images/project-page/tictactoe.PNG",
     description: "Classic Tic Tac Toe game with bot.",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/ticTacToe1/",
+    Previewlink: "https://www.loom.com/share/eaf33f8be71143f2a6830cb43d3e4f98",
+    Githublink: "https://github.com/panjwaniranjitsingh/Tic-Tac-Toe",
   },
   {
-    title: "Connect4",
-    cardImage: "assets/images/project-page/connect4-logo.png",
-    description: "An extended version of Tic-Tac-Toe with bot",
+    title: "Snake 2D",
+    cardImage: "assets/images/project-page/snakeGame.jpg",
+    description: "Classic Snake Game played in Nokia phones.",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/connect4WithBot1/",
+    Previewlink: "#",
+    Githublink: "https://github.com/panjwaniranjitsingh/Snake2d",
   },
   {
-    title: "Master Quiz",
-    cardImage: "assets/images/project-page/masterquiz.png",
-    description: "A quiz game like Kaun Banega Crorepati",
+    title: "2D-Platformer-Game",
+    cardImage: "assets/images/project-page/2dplatformer.PNG",
+    description: "2D-Platformer-Game like mario",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/masterQuiz1/",
+    Previewlink: "https://www.linkedin.com/posts/panjwaniranjitsingh_projectsatoutscal-unity2d-platformer-activity-6792798990371999744-Y5Zf",
+    Githublink: "https://github.com/panjwaniranjitsingh/2D-Platformer-Game",
   },
   {
-    title: "Sniper Shooter 3D",
-    cardImage: "assets/images/project-page/snipershooter3dtitle.png",
-    description: "First Person Shooter game with zombies",
+    title: "Tank Wars",
+    cardImage: "assets/images/project-page/TankWars.PNG",
+    description: "3D Tank Battle Game",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/sniperShooter3d1/",
+    Previewlink: "#",
+    Githublink: "https://github.com/panjwaniranjitsingh/3D-battle-tank-game",
     
   },
   {
-    title: "Snakes & Ladders",
-    cardImage: "assets/images/project-page/sankesnladders.png",
-    description: "Typical cardboard game of snakes and ladders with bot",
+    title: "Chest Reward System",
+    cardImage: "assets/images/project-page/ChestReward.PNG",
+    description: "Chest Reward System using MVC Design Pattern.",
     tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/snakeAndLadder1/",
+    Githublink: "https://github.com/panjwaniranjitsingh/MVC-RewardSystem",
     
   },
-  {
-    title: "Find Hidden Objects",
-    cardImage: "assets/images/project-page/hiddenObjects.png",
-    description: "Find objects which are hidden in plain sight",
-    tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://games.acidtriparts.com/games_webbuild/hiddenObjectLevelBased1/",
-    
-  },
-  {
-    title: "Outscal Orientation",
-    cardImage: "https://uploads-ssl.webflow.com/6178422b9e7509748411989b/6179401254a9a701196a56e6_logo%20black%20outscal.png",
-    description: "Orientation of Outscal by playing 2D Platformer Game",
-    tagimg: "https://www.chrisgodber.co.uk/img/playcanvas.jpg",
-    Previewlink: "https://panjwaniranjitsingh.itch.io/outscal",
-    
-  },
+  
 ];
 
 // function for rendering project cards data
 const showCards = () => {
   let output = "";
   projects.forEach(
-    ({ title, cardImage, tags, Previewlink, description }) => {
+    ({ title, cardImage, tags, Previewlink, description,Githublink }) => {
       (output += `       
         
         <div class="column skill-card card" style="margin: 15px"data-aos="zoom-in-up" data-aos-easing="linear" data-aos-delay="300" data-aos-duration="600" >
@@ -74,7 +63,9 @@ const showCards = () => {
             <div class="data">
               <div class="content">
               <div class="title-div">
-                <h1 class="title"><a href="${Previewlink}">${title}<br><span class="my_projects">[Play]</span><br>${description}</a></h1>
+                <h1 class="title"><a href="${Githublink}">${title}<br></a></h1>
+                <ul class="menu-content">
+                <li><a href="${Githublink}" class="social-icon"><svg xmlns="http://www.w3.org/2000/svg" width="120" height="100" viewBox="0 0 30 28" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
                 </div>
               </div>
             </div>
