@@ -6,10 +6,17 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Game Developer",
+    cardImage: "assets/images/experience-page/acidtriparts-logo-icon.png",
+    place: "NIIT Ltd.",
+    time: "(March, 2022 - present)",
+    desp: "<li>1. Worked in simulation games.</li><li>2. Coordinated with artists and colleagues to work as a team.</li><li>3. Interacted with clients to understand their needs for changes required in a simulation project.</li><li>4. Created plugins to use in existing Unity projects</li>",
+  },
+  {
     title: "Game Programmer",
     cardImage: "assets/images/experience-page/acidtriparts-logo-icon.png",
     place: "Acid Trip Arts Studio Pvt. Ltd.",
-    time: "(March, 2021 - present)",
+    time: "(March, 2021 - February, 2022)",
     desp: "<li>Developed 10 hyper-casual games for clients using playcanvas and javascript.</li> <li>Interacted with clients to understand their needs for those particular hypercasual games.</li> <li>Co-ordinated with artist and colleagues to work as a team.</li> <li>Implemented games for mobile platform.</li>",
   },
   {
