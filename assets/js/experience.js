@@ -7,8 +7,8 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
     title: "Game Developer",
-    cardImage: "assets/images/experience-page/acidtriparts-logo-icon.png",
-    place: "NIIT Ltd.",
+    cardImage: "assets/images/experience-page/NIIT.png",
+    place: "NIIT Managed Training Services",
     time: "(March, 2022 - present)",
     desp: "<li>1. Worked in simulation games.</li><li>2. Coordinated with artists and colleagues to work as a team.</li><li>3. Interacted with clients to understand their needs for changes required in a simulation project.</li><li>4. Created plugins to use in existing Unity projects</li>",
   },
