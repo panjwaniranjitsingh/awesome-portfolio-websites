@@ -9,8 +9,8 @@ const exp = [
     title: "Game Developer",
     cardImage: "assets/images/experience-page/NIIT.png",
     place: "NIIT Managed Training Services",
-    time: "(March, 2022 - present)",
-    desp: "<li>Worked in simulation games.</li><li>Coordinated with artists and colleagues to work as a team.</li><li>Interacted with clients to understand their needs for changes required in a simulation project.</li><li>Created plugins to use in existing Unity projects</li>",
+    time: "(March, 2022 - November,2023)",
+    desp: "<li>Created editor scripts and visual scripting units for designers.</li><li>Worked on simulation games.</li><li>Coordinated with artists and colleagues to work as a team.</li><li>Interacted with clients to understand their needs for changes required in a simulation project.</li><li>Created plugins to use in existing Unity projects</li>",
   },
   {
     title: "Game Programmer",
